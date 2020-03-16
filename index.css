@@ -1,9 +1,17 @@
+@font-face {
+  font-family: 'heebo';
+  src: url('assets/fonts/Heebo/Heebo-Light.ttf')
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf')
+}
+
 body {
   padding: 0;
   display: flex;
   justify-content: space-between;
   font-family: 'heebo', sans-serif;
-  font-weight: 100;
 }
 
 h1, h2, h3, h4 {
