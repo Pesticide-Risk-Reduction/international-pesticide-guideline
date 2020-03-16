@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 
 h1, h2 {
   border-bottom: 1px solid rgba(72, 0, 206, 0.548);
-  border-bottom-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.2rem;
 }
 
 h1 {
@@ -30,6 +30,12 @@ h1 {
 
 #column-right {
   width: 100%
+}
+
+footer {
+  position: fixed;
+  bottom: 0.3rem;
+  left: 1rem;
 }
 
 
