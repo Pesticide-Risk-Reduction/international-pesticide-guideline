@@ -2,10 +2,18 @@ body {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  font-family: 'heebo', sans-serif;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(224, 124, 1);
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 h1, h2 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(72, 0, 206, 0.548);
   border-bottom-right-radius: 0.3rem;
 }
 
