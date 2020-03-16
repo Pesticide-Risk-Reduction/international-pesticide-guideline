@@ -21,7 +21,10 @@ h1 {
   margin-bottom: 0;
 }
 #update-date {
-  margin-top: 0;
+  margin: 0; 
+}
+#nav {
+  margin-top: 16px;
 }
 
 #column-left {
