@@ -46,6 +46,11 @@ footer {
   
 
 @media only screen and (min-width: 700px) {
+  body {
+    max-width: 60rem;
+    margin: auto;
+  }
+
   #column-left {
     display: block;
     width: calc((100% - 3rem) / 3);
@@ -62,7 +67,7 @@ footer {
 
   section.table-of-contents {
     width: calc(((100% - 3rem) / 3) - 2rem);
-    /* text-align: right; */
+    max-width: 19rem;
     margin-top: 10vh;
     position: fixed;
   }
