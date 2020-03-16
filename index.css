@@ -43,6 +43,22 @@ h1 {
   width: 100%
 }
 
+.gsheets-icon {
+  margin: -3px -1px -5px 0;
+}
+
+.table-link-btn {
+  border: 2px solid rgb(224, 124, 1);
+  padding: 0.3rem 0.7rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+.table-link-btn:hover {
+  background-color: rgb(224, 124, 1);
+  color: white;
+}
+
 footer {
   position: fixed;
   bottom: 0.3rem;
